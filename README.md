@@ -22,26 +22,10 @@ ageeffect <- c('age')
 ##different treatment combinations for males and females
 ##first bracket is the food treatment 1 deviations for 
 ##each level of 
-
-#We observed that food supplementation can cause a shift in, for example, body weight 
-#of ~ 0.75 standard deviations from the mean
-# fear response studies observe effect sizes in the range of ~35%, so that would be rises of 17.5 in what follows
-#in swim tests, it is more like 1.5 to 2 in cohens d units.  d = (M1 - M2) / s_pooled
-#Where M1 and M2 are the means of the two groups, and s_pooled is the pooled standard deviation. But
-#d can be interpreted in SD units: 
-#d = 0.5 indicates the mean difference is half a standard deviation
-#d = 1.0 indicates the mean difference is equal to one standard deviation
-#d = 2.0 indicates the mean difference is twice the standard deviation
-# that would be from 2.5 to 10 in what follows.
-#if I went with the lower number reported from behavioural studies, it would be 1.5 or 7.5
  
 #here shows no effect of infection, but an effect of food.With 5, the % change due to the effects is 
 effect.male <- rbind(c(0,7.5,7.5), c(0,5,5))
 effect.female <-rbind(c(0,5.5,5.5), c(0,4,4))
-
-
-
-
 effect.age <- c()
 
 
